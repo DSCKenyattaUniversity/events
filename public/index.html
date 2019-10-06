@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DSC EVENTS</title>
+    <meta name="description" content="church website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./images/logo.png">
+   <!-- bootstrap -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <!-- links to styles sheets -->
+    <link rel="stylesheet" href="styles.css">
+    <!--font awesome-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!--google fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet' type='text/css'>
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+</head>
+<body>
+    <!-- social media icons -->
+    <div class="social-wrapper">
+        <a href="mailto:thedscku@gmail.com"><i class="social fa fa-envelope animated fadeInDown" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/DscKenyatta"><i class="social fa fa-twitter animated fadeInDown" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/channel/UCJM_y9mwjP8HjMCw1iy46Cw"><i class="social fa fa-youtube animated fadeInDown" aria-hidden="true"></i></a>
+    </div>
+    <!-- content -->
+    <div class="content">
+        <img src="./images/logo.png" alt="logo" height="100" class="animated fadeInDown logo">
+        <h2 class="animated fadeInDown" >DSC Kenyatta University</h2>
+        <h1 class="animated fadeInDown" >The Convergence</h1>
+        <h3 class="animated fadeInDown" >"Info Session"</h3> <br><br>
+        <i class="social fa fa-calendar animated fadeInDown" aria-hidden="true"></i> 11.10.2019 <span class="separator">|</span>  
+        <i class="social fa fa-map-marker animated fadeInDown" aria-hidden="true"></i> BSSC <br><br>
+        <button class="animated fadeInDown" data-toggle="modal" data-target="#registerModal">Register Attendance</button>
+    </div>
+    <!-- register Modal -->
+    <div class="modal fade" id="registerModal" role="dialog">
+        <div class="modal-dialog">
+        
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Welcome</h4>
+            </div>
+            <div class="modal-body">
+                <form action="" id="addform">
+                    <input class="animated zoomIn" type="text" name="username" id="username" placeholder="Full Name" required> <br>
+                    <input class="animated zoomIn" type="email" name="email" id="email" placeholder="Email" required> <br>
+                    <input class="animated zoomIn" type="tel" name="phone" id="phone" placeholder="Phone" required> <br>
+                    <input class="animated zoomIn" type="text" name="course" id="course" placeholder="Course of Study (Bs. Computer Science or B.A Psychology)" required> <br>
+                    <select name="year" id="year"  class="animated zoomIn select-css" required>
+                        <option value="" disabled selected>Select Year of Study</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                    <button class="animated zoomIn submit-btn" type="submit">ATTEND</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+
+    <script src="post.js" async defer></script>
+
+</body>
+</html>
