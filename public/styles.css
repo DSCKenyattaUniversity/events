@@ -15,12 +15,20 @@ body {
 html{overflow-x: hidden !important;}
 @media only screen and (max-device-width:736px){html,body{overflow-x: hidden !important;}}
 
-
-/* content */
+.africa {
+    background: url(./images/africa.svg) no-repeat;
+    padding: 5px 0;
+    background-size: 100%;
+    margin-top: 5vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* social icons */
 .social-wrapper {
    margin-top: 50px;
    margin-bottom: 10vh;
 }
+/* content */
 .social-wrapper .social {
     margin: 10px;
     font-size: 20px;
