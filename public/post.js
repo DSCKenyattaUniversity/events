@@ -1,13 +1,13 @@
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDD5mQxiGQ9RQwfYTKgLUzaCIChAZPem40",
-  authDomain: "dscku-register.firebaseapp.com",
-  databaseURL: "https://dscku-register.firebaseio.com",
-  projectId: "dscku-register",
-  storageBucket: "dscku-register.appspot.com",
-  messagingSenderId: "715362670942",
-  appId: "1:715362670942:web:ee3accb3802a2bbfca57cf",
-  measurementId: "G-LRBN2JFR5Z"
+  apiKey: "AIzaSyD2y_vednwy0dEYUqcY27KIZlEmyUQEofM",
+  authDomain: "events-dscku.firebaseapp.com",
+  databaseURL: "https://events-dscku.firebaseio.com",
+  projectId: "events-dscku",
+  storageBucket: "",
+  messagingSenderId: "845447173046",
+  appId: "1:845447173046:web:eaa26d3034651313052717",
+  measurementId: "G-VNJM8D0PTP"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
