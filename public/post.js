@@ -13,7 +13,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
   //Reference for form collection
-  let formMessage = firebase.database().ref('INFO_SESSION');
+  let formMessage = firebase.database().ref('WEB_ANDROID_ONE');
 
   //listen for submit event//
   document
