@@ -13,7 +13,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
   //Reference for form collection
-  let formMessage = firebase.database().ref('FLUTTER');
+  let formMessage = firebase.database().ref('REST_APIs');
 
   //listen for submit event//
   document
@@ -37,8 +37,8 @@ firebase.initializeApp(firebaseConfig);
       //Show Alert Message
       // document.querySelector('.alert').style.display = 'block';
       Swal.fire({
-          // title: `See you soon 😉${username} 😍`,
-          title: `Hey...${username} 😍, Lets\' Flutter on Friday 😉`,
+          title: `See you soon 😉${username} 😍`,
+          // title: `Hey...${username} 😍, Lets\' Flutter on Friday 😉`,
           type: 'success',
           // style:'font-size: 1.6rem !important;',
           customClass: {
