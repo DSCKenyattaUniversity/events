@@ -13,7 +13,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
   //Reference for form collection
-  let formMessage = firebase.database().ref('REST_APIs');
+  let formMessage = firebase.database().ref('MACHINE_LEARNING');
 
   //listen for submit event//
   document
