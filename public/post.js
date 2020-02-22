@@ -13,7 +13,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
   //Reference for form collection
-  let formMessage = firebase.database().ref('MACHINE_LEARNING');
+  let formMessage = firebase.database().ref('ladies_in_tech');
 
   //listen for submit event//
   document
@@ -37,7 +37,7 @@ firebase.initializeApp(firebaseConfig);
       //Show Alert Message
       // document.querySelector('.alert').style.display = 'block';
       Swal.fire({
-          title: `See you soon 😉${username} 😍`,
+          title: `Let's slay girl...😍 See you soon 😉${username} 😍`,
           // title: `Hey...${username} 😍, Lets\' Flutter on Friday 😉`,
           type: 'success',
           // style:'font-size: 1.6rem !important;',
